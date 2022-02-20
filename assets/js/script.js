@@ -124,6 +124,42 @@ line.addEventListener("click", () => {
 window.addEventListener("scroll", () => {
   navBlock.classList.remove("toggle");
   line.classList.remove("open");
-
-  
 });
+
+// * rasmni yuklab olishni oldini olish uchun yozilgan js code
+let allImages = document.querySelectorAll("img");
+allImages.forEach((value) => {
+  value.oncontextmenu = (e) => {
+    e.preventDefault();
+  };
+});
+
+// Laoding
+
+let spinnerWrapper = document.querySelector(".font_loader");
+window.addEventListener("load", () => {
+  spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+});
+
+// phone iconni footerga kelganda yo'qolib qolishi
+
+// let footer = document.querySelector("footer");
+// let sendPhoneIcon = document.querySelector(".sendPhone");
+// let sendContactSection = document.querySelector(".sendContactSection");
+
+// window.addEventListener("scroll", () => {
+//   console.log(
+//     sendContactSection.offsetTop,
+//     window.pageYOffset,
+//     footer.innerHeight
+//     // sendContactSection.clientHeight,
+//   );
+
+//   if (sendContactSection.offsetTop < window.pageYOffset) {
+//     sendPhoneIcon.style.display = "none";
+//     console.log(document.body.scrollTop);
+//   }
+//   else{
+//     sendPhoneIcon.style.display = "block";
+//   }
+// });
