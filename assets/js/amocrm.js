@@ -95,7 +95,7 @@ function checkAndSend1(name, tel) {
     };
 
     if (String(localStorage.getItem(tel)) != tel) {
-      fetch("http://94.142.143.108/api/v1/send", {
+      fetch("https://www.abdukarimmirzayev.com/api/v1/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -172,7 +172,7 @@ function checkAndSend2(name, tel) {
     };
 
     if (String(localStorage.getItem("tel")) != tel) {
-      fetch("http://94.142.143.108/api/v1/send", {
+      fetch("https://www.abdukarimmirzayev.com/api/v1/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

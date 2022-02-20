@@ -56,7 +56,7 @@ var over = document.querySelector(".over");
 
 window.addEventListener("resize", () => {
   if (window.innerWidth > 1000) {
-    var dis = (window.innerWidth - section_7.offsetWidth) / 2 + 265;
+    var dis = (window.innerWidth - section_7.offsetWidth) / 2 + 285;
     slide.style.width = `${window.innerWidth - dis}px`;
   } else if (window.innerWidth > 576) {
     slide.style.width = `calc(100% - 40px)`;
@@ -66,7 +66,7 @@ window.addEventListener("resize", () => {
 });
 
 if (window.innerWidth > 1000) {
-  var dis = (window.innerWidth - section_7.offsetWidth) / 2 + 265;
+  var dis = (window.innerWidth - section_7.offsetWidth) / 2 + 285;
   slide.style.width = `${window.innerWidth - dis}px`;
 } else if (window.innerWidth > 576) {
   slide.style.width = `calc(100% - 40px)`;
