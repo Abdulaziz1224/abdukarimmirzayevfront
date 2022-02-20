@@ -198,7 +198,6 @@ function checkAndSend2(name, tel) {
             loadingBtns[i].classList.remove("loading");
           }
           if (response.status === 200) {
-            clearInput();
             counter++;
             localStorage.setItem("tel", tel);
 
@@ -214,11 +213,7 @@ function checkAndSend2(name, tel) {
                 fontWeigth: "normal",
               },
             }).showToast();
-
-            var modal = document.querySelector(".signUpMobil-continer");
-            modal.style.display = "none";
-            var modal = document.querySelector(".signUpWeb-continer");
-            modal.style.display = "none";
+            clearInput();
           }
         })
         .catch((error) => {
