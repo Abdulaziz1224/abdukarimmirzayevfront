@@ -5,6 +5,16 @@ var phones = document.querySelectorAll(".phoneCopy");
 var nameInputs = document.querySelectorAll(".nameCopy");
 var phoneInputs = document.querySelectorAll(".phoneCopy");
 
+function disableScroll(scrolltop) {
+  over.onscroll = function () {
+    window.scrollTo(scrolltop);
+  };
+}
+
+function enableScroll() {
+  window.onscroll = function () {};
+}
+
 function clearInput() {
   nameInputs[0].value = "";
   phoneInputs[0].value = "";
@@ -96,7 +106,7 @@ function checkAndSend1(name, tel) {
   }
   if (name.length < 3 && !(name.length === 0)) {
     showToast("Ismingiz kamida 3ta harf bolishi kerak.");
-  } else if (tel.length <= 9 && !(tel.length === 0)) {
+  } else if (tel.length < 9 && !(tel.length === 0)) {
     showToast(
       "Telefon raqamingizni quyidagi korinishda kiriting : +998912345678"
     );
@@ -244,8 +254,10 @@ function checkAndSend2(name, tel) {
 }
 
 function descModalSend() {
+  disableScroll(over.scrollTop);
   var name = document.querySelector("#name-modal-desc").value;
   var tel = document.querySelector("#phone-modal-desc").value;
+  console.log(over);
 
   checkAndSend1(name, tel);
 }
@@ -253,7 +265,6 @@ function descModalSend() {
 function mobileModalSend() {
   var name = document.querySelector("#name-modal-mobile").value;
   var tel = document.querySelector("#phone-modal-mobile").value;
-
   checkAndSend1(name, tel);
 }
 
@@ -267,6 +278,7 @@ function send() {
 function close1() {
   var modal = document.querySelector(".confirmMobile-continer");
   modal.style.display = "none";
+
   clearInput();
 }
 function close2() {
@@ -277,11 +289,13 @@ function close2() {
 function close3() {
   var modal = document.querySelector(".signUpWeb-continer");
   modal.style.display = "none";
+
   clearInput();
 }
 function close4() {
   var modal = document.querySelector(".signUpMobil-continer");
   modal.style.display = "none";
+
   clearInput();
 }
 
