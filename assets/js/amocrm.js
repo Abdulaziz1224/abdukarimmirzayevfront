@@ -99,7 +99,7 @@ function checkAndSend1(name, tel, modal) {
     console.log(typeof tel);
 
     if (counter < 3 && isSame) {
-      fetch("http://94.142.143.108/send", {
+      fetch("https://www.abdukarimmirzayev.com/api/v1/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -177,7 +177,7 @@ function checkAndSend2(name, tel, modal) {
     };
 
     if (counter < 2) {
-      fetch("http://94.142.143.108/send", {
+      fetch("https://www.abdukarimmirzayev.com/api/v1/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
