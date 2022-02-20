@@ -134,32 +134,7 @@ allImages.forEach((value) => {
   };
 });
 
-// Laoding
-
 let spinnerWrapper = document.querySelector(".font_loader");
-window.addEventListener("load", () => {
+setTimeout(() => {
   spinnerWrapper.parentElement.removeChild(spinnerWrapper);
-});
-
-// phone iconni footerga kelganda yo'qolib qolishi
-
-// let footer = document.querySelector("footer");
-// let sendPhoneIcon = document.querySelector(".sendPhone");
-// let sendContactSection = document.querySelector(".sendContactSection");
-
-// window.addEventListener("scroll", () => {
-//   console.log(
-//     sendContactSection.offsetTop,
-//     window.pageYOffset,
-//     footer.innerHeight
-//     // sendContactSection.clientHeight,
-//   );
-
-//   if (sendContactSection.offsetTop < window.pageYOffset) {
-//     sendPhoneIcon.style.display = "none";
-//     console.log(document.body.scrollTop);
-//   }
-//   else{
-//     sendPhoneIcon.style.display = "block";
-//   }
-// });
+}, 3000);
