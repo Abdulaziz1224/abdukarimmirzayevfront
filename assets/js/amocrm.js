@@ -94,7 +94,7 @@ function checkAndSend1(name, tel) {
       );
     }
   }
-  if (name.length <= 3 && !(name.length === 0)) {
+  if (name.length < 3 && !(name.length === 0)) {
     showToast("Ismingiz kamida 3ta harf bolishi kerak.");
   } else if (tel.length <= 9 && !(tel.length === 0)) {
     showToast(
@@ -179,7 +179,7 @@ function checkAndSend2(name, tel) {
       "Telefon raqamingizni quyidagi korinishlarda kiriting : +998912345678  991234567"
     );
   }
-  if (name.length > 3 && tel.length >= 9) {
+  if (name.length > 2 && tel.length >= 9) {
     const data = {
       name,
       tel,
