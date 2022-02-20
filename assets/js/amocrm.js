@@ -83,12 +83,12 @@ function checkAndSend1(name, tel) {
   }
   if (name.length < 4 && !(name.length === 0)) {
     showToast("Ismingiz kamida 4ta harf bolishi kerak.");
-  } else if (tel.length < 10 && !(tel.length === 0)) {
+  } else if (tel.length < 9 && !(tel.length === 0)) {
     showToast(
       "Telefon raqamingizni quidagi korinishda kiriting : +998912345678"
     );
   }
-  if (name.length > 3 && tel.length > 9) {
+  if (name.length > 3 && tel.length > 8) {
     const data = {
       name,
       tel,
