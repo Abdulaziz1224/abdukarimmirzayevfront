@@ -134,7 +134,7 @@ allImages.forEach((value) => {
   };
 });
 
-// let spinnerWrapper = document.querySelector(".font_loader");
-// setTimeout(() => {
-//   spinnerWrapper.parentElement.removeChild(spinnerWrapper);
-// }, 1000);
+let spinnerWrapper = document.querySelector(".font_loader");
+setTimeout(() => {
+  spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+}, 1000);
