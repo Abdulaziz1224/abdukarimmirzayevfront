@@ -81,7 +81,7 @@ function checkAndSend1(name, tel) {
       );
     }
   }
-  if (name.length < 3 && !(name.length === 0)) {
+  if (name.length < 4 && !(name.length === 0)) {
     showToast("Ismingiz kamida 4ta harf bolishi kerak.");
   } else if (tel.length < 10 && !(tel.length === 0)) {
     showToast(
