@@ -137,4 +137,4 @@ allImages.forEach((value) => {
 let spinnerWrapper = document.querySelector(".font_loader");
 setTimeout(() => {
   spinnerWrapper.parentElement.removeChild(spinnerWrapper);
-}, 2000);
+}, 1);
