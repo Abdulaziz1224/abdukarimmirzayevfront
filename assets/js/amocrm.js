@@ -1,7 +1,6 @@
 var loadingBtns = document.querySelectorAll("#loading-btn");
 let counter = 0;
 var phones = document.querySelectorAll(".phoneCopy");
-
 function numberCheck(phone) {
   let num = phone.value;
 
@@ -69,7 +68,7 @@ function showToast(text) {
   }).showToast();
 }
 
-function checkAndSend1(name, tel, modal) {
+function checkAndSend1(name, tel) {
   if (name.length === 0 && tel.length === 0) {
     showToast("Ismingizni va telefon raqamingizni kiriting.");
   } else {
@@ -94,11 +93,8 @@ function checkAndSend1(name, tel, modal) {
       name,
       tel,
     };
-    var isSame = localStorage.getItem(tel) !== tel;
-    console.log(typeof String(localStorage.getItem(tel)));
-    console.log(typeof tel);
 
-    if (counter < 3 && isSame) {
+    if (String(localStorage.getItem(tel)) != tel) {
       fetch("http://94.142.143.108/api/v1/send", {
         method: "POST",
         headers: {
@@ -113,7 +109,6 @@ function checkAndSend1(name, tel, modal) {
           if (response.status === 200) {
             counter++;
             localStorage.setItem("tel", tel);
-            console.log(localStorage.getItem("tel"));
 
             if (window.innerWidth > 576) {
               var modal = document.querySelector(".confirmMobile-continer");
@@ -150,7 +145,7 @@ function checkAndSend1(name, tel, modal) {
   }
 }
 
-function checkAndSend2(name, tel, modal) {
+function checkAndSend2(name, tel) {
   if (name.length === 0 && tel.length === 0) {
     showToast("Ismingizni va telefon raqamingizni kiriting.");
   } else {
@@ -176,7 +171,7 @@ function checkAndSend2(name, tel, modal) {
       tel,
     };
 
-    if (counter < 2) {
+    if (String(localStorage.getItem("tel")) != tel) {
       fetch("http://94.142.143.108/api/v1/send", {
         method: "POST",
         headers: {
@@ -190,7 +185,7 @@ function checkAndSend2(name, tel, modal) {
           }
           if (response.status === 200) {
             counter++;
-            console.log(modal);
+            localStorage.setItem("tel", tel);
 
             Toastify({
               text: `Siz muvaffaqiyatli ro‘yxatdan o‘tdingiz. Siz bilan yaqin orada
@@ -215,12 +210,13 @@ function checkAndSend2(name, tel, modal) {
           for (let i = 0; i < loadingBtns.length; i++) {
             loadingBtns[i].classList.remove("loading");
           }
-          console.log("error");
         });
     } else {
-      for (let i = 0; i < loadingBtns.length; i++) {
-        loadingBtns[i].classList.remove("loading");
-      }
+      setTimeout(() => {
+        for (let i = 0; i < loadingBtns.length; i++) {
+          loadingBtns[i].classList.remove("loading");
+        }
+      }, 300);
       Toastify({
         text: `Siz muvaffaqiyatli ro‘yxatdan o‘tdingiz. Siz bilan yaqin orada
           konsultantimiz bog‘lanadi. Kursimizda ko‘rishguncha!`,
@@ -304,5 +300,3 @@ for (let i = 0; i < loadingBtns.length; i++) {
     loadingBtns[i].classList.add("loading");
   });
 }
-
-window.pushState();
