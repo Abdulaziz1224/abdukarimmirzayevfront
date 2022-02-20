@@ -78,15 +78,15 @@ Array.isArray(accar)
   : "";
 
 // show and hide accardion Function //
-window.addEventListener("load", () => {
-  if (ul.children[0].classList.length === 1) {
-    ul.children[0].classList.add("active");
-    ul.children[0].firstElementChild.lastElementChild.children[0].style.transform =
-      "rotate(0deg)";
+// window.addEventListener("load", () => {
+//   if (ul.children[0].classList.length === 1) {
+//     ul.children[0].classList.add("active");
+//     ul.children[0].firstElementChild.lastElementChild.children[0].style.transform =
+//       "rotate(0deg)";
 
-    ul.children[0].lastElementChild.style.height = "192px";
-  }
-});
+//     ul.children[0].lastElementChild.style.height = "192px";
+//   }
+// });
 
 let height = null;
 const showAccardion = (id) => {
@@ -135,6 +135,6 @@ allImages.forEach((value) => {
 });
 
 let spinnerWrapper = document.querySelector(".font_loader");
-setTimeout(() => {
+window.onload = () => {
   spinnerWrapper.parentElement.removeChild(spinnerWrapper);
-}, 1000);
+};

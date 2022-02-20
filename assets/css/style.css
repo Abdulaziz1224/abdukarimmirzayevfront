@@ -66,6 +66,8 @@ body .back_site .signUpMobil-continer {
   background-color: rgba(0, 0, 0, 0.9);
 }
 body .back_site .confirmWeb {
+  margin-left: 20px;
+  margin-right: 20px;
   width: 380px;
   padding: 92px 40px 40px 40px;
   background-color: #4b9e50;
