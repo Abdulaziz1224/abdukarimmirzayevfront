@@ -1,6 +1,19 @@
 var loadingBtns = document.querySelectorAll("#loading-btn");
 let counter = 0;
 var phones = document.querySelectorAll(".phoneCopy");
+
+var nameInputs = document.querySelectorAll(".nameCopy");
+var phoneInputs = document.querySelectorAll(".phoneCopy");
+
+function clearInput() {
+  nameInputs[0].value = "";
+  phoneInputs[0].value = "";
+  nameInputs[1].value = "";
+  phoneInputs[1].value = "";
+  nameInputs[2].value = "";
+  phoneInputs[2].value = "";
+}
+
 function numberCheck(phone) {
   let num = phone.value;
 
@@ -109,6 +122,7 @@ function checkAndSend1(name, tel) {
           if (response.status === 200) {
             counter++;
             localStorage.setItem("tel", tel);
+            clearInput();
 
             if (window.innerWidth > 576) {
               var modal = document.querySelector(".confirmMobile-continer");
@@ -184,6 +198,7 @@ function checkAndSend2(name, tel) {
             loadingBtns[i].classList.remove("loading");
           }
           if (response.status === 200) {
+            clearInput();
             counter++;
             localStorage.setItem("tel", tel);
 
@@ -252,16 +267,6 @@ function send() {
   var tel = document.querySelector("#phone").value;
 
   checkAndSend2(name, tel);
-}
-
-var nameInputs = document.querySelectorAll(".nameCopy");
-var phoneInputs = document.querySelectorAll(".phoneCopy");
-
-function clearInput() {
-  nameInputs[0].value = "";
-  phoneInputs[0].value = "";
-  nameInputs[1].value = "";
-  phoneInputs[1].value = "";
 }
 
 function close1() {
