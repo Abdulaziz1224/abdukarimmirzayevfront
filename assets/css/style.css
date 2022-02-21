@@ -192,7 +192,6 @@ body .back_site .signUpWeb .container .signUpForms .contain .formTop form .input
   font-style: normal;
   font-weight: normal;
   line-height: 21.48px;
-  letter-spacing: 0em;
   text-align: left;
   color: #000000;
   border-radius: 0px;
@@ -203,7 +202,6 @@ body .back_site .signUpWeb .container .signUpForms .contain .formTop form .input
   font-style: normal;
   font-weight: normal;
   line-height: 21.5px;
-  letter-spacing: 0em;
   text-align: left;
   color: #828282;
 }
@@ -294,7 +292,6 @@ body .back_site .signUpMobil .container .signUpForms .contain .formTop form .inp
   font-style: normal;
   font-weight: normal;
   line-height: 21.48px;
-  letter-spacing: 0em;
   text-align: left;
   color: #000000;
   border-radius: 0px;
@@ -305,7 +302,6 @@ body .back_site .signUpMobil .container .signUpForms .contain .formTop form .inp
   font-style: normal;
   font-weight: normal;
   line-height: 21.5px;
-  letter-spacing: 0em;
   text-align: left;
   color: #828282;
 }
@@ -458,7 +454,6 @@ body .back_site .over .header .container .navbar nav .link ul li a {
   font-style: normal;
   font-weight: normal;
   line-height: 19px;
-  letter-spacing: 0em;
   text-align: left;
   color: #000000;
 }
@@ -476,7 +471,6 @@ body .back_site .over .header .container .navbar nav .phone a {
   font-style: normal;
   font-weight: 400;
   line-height: 19px;
-  letter-spacing: 0em;
   text-align: right;
   color: #000000;
 }
@@ -564,7 +558,6 @@ body .back_site .over .header .container .navbar nav .line {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: center;
   }
   body .back_site .over .header .container .navbar nav .link ul .mobile_phone {
@@ -578,7 +571,6 @@ body .back_site .over .header .container .navbar nav .line {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: center;
     color: #000000;
   }
@@ -661,7 +653,6 @@ body .back_site .over .header .container .header_main .text p {
   font-style: normal;
   font-weight: lighter;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   color: #828282;
 }
@@ -674,7 +665,6 @@ body .back_site .over .header .container .header_main .kurs h2 {
   font-style: normal;
   font-weight: bold;
   line-height: 50px;
-  letter-spacing: 0em;
   text-align: left;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -854,7 +844,6 @@ body .back_site .over .section-3 .head-3 .question-3 {
   font-style: normal;
   font-weight: lighter;
   line-height: 24px;
-  letter-spacing: 0em;
 }
 body .back_site .over .section-3 .head-3 .title-3 {
   width: 70%;
@@ -863,7 +852,6 @@ body .back_site .over .section-3 .head-3 .title-3 {
   font-style: normal;
   font-weight: bold;
   line-height: 36px;
-  letter-spacing: 0em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -906,7 +894,6 @@ body .back_site .over .section-3 .wrapper-3 .row .content .box p {
   font-style: normal;
   font-weight: normal;
   line-height: 28px;
-  letter-spacing: 0em;
 }
 body .back_site .over .section-3 .wrapper-3 .row .last-content {
   position: relative;
@@ -921,7 +908,6 @@ body .back_site .over .section-3 .wrapper-3 .row .last-content .box p {
   font-style: normal;
   font-weight: bold;
   line-height: 36px;
-  letter-spacing: 0em;
 }
 body .back_site .over .section-3 .wrapper-3 .row .last-content .box button {
   font-family: "SF Pro display";
@@ -937,7 +923,6 @@ body .back_site .over .section-3 .wrapper-3 .row .last-content .box button {
   font-style: normal;
   font-weight: normal;
   line-height: 21px;
-  letter-spacing: 0em;
 }
 body .back_site .over .section-3 .wrapper-3 .middle-row .content .pinter {
   margin-left: 230px;
@@ -1227,7 +1212,6 @@ body .back_site .over .section-4 .head-3 .question-3 {
   font-style: normal;
   font-weight: lighter;
   line-height: 24px;
-  letter-spacing: 0em;
 }
 body .back_site .over .section-4 .head-3 .title-3 {
   width: 70%;
@@ -1236,7 +1220,6 @@ body .back_site .over .section-4 .head-3 .title-3 {
   font-style: normal;
   font-weight: 700;
   line-height: 36px;
-  letter-spacing: 0em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1275,7 +1258,6 @@ body .back_site .over .section-4 .wrapper-4 .box .content {
   font-style: normal;
   font-weight: bold;
   line-height: 28px;
-  letter-spacing: 0em;
 }
 body .back_site .over .section-4 .wrapper-4 .line-4 {
   width: 100%;
@@ -1377,7 +1359,6 @@ body .back_site .over .section-5 .container .row .title_section p {
   font-style: normal;
   font-weight: lighter;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   color: #828282;
 }
@@ -1406,7 +1387,6 @@ body .back_site .over .section-5 .container .row .info_course .firstBox h3 {
   font-style: normal;
   font-weight: bold;
   line-height: 36px;
-  letter-spacing: 0em;
   text-align: left;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1466,7 +1446,6 @@ body .back_site .over .section-6 .container .course-information .title_section p
   font-style: normal;
   font-weight: lighter;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   color: #828282;
 }
@@ -1490,7 +1469,6 @@ body .back_site .over .section-6 .container .course-information .info-course h3 
   font-style: normal;
   font-weight: bold;
   line-height: 36px;
-  letter-spacing: 0em;
   text-align: left;
 }
 body .back_site .over .section-6 .container .course-information .info-course h3 .green-text {
@@ -1513,7 +1491,6 @@ body .back_site .over .section-6 .container .course-information .info-course .du
   font-style: normal;
   font-weight: normal;
   line-height: 28px;
-  letter-spacing: 0em;
   text-align: left;
 }
 body .back_site .over .section-6 .container .course-information .info-course .duration-course .box span {
@@ -1522,7 +1499,6 @@ body .back_site .over .section-6 .container .course-information .info-course .du
   font-style: normal;
   font-weight: bold;
   line-height: 36px;
-  letter-spacing: 0em;
   text-align: left;
   color: #4b9e50;
 }
@@ -1570,7 +1546,6 @@ body .back_site .over .section-6 .container .course-information .info-course .ac
   font-style: normal;
   font-weight: bold;
   line-height: 28px;
-  letter-spacing: 0em;
   text-align: left;
   margin-left: 25px;
 }
@@ -1633,7 +1608,6 @@ body .back_site .over .section-7 .head-7 .question-3 {
   font-style: normal;
   font-weight: lighter;
   line-height: 24px;
-  letter-spacing: 0em;
   margin-left: 20px;
 }
 body .back_site .over .section-7 .head-7 .title-3 {
@@ -1643,7 +1617,6 @@ body .back_site .over .section-7 .head-7 .title-3 {
   font-style: normal;
   font-weight: 700;
   line-height: 36px;
-  letter-spacing: 0em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -2119,7 +2092,6 @@ body .back_site .over .sendContactSection .container .section-9 .leftContactSect
   font-style: normal;
   font-weight: lighter;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   color: #828282;
 }
@@ -2141,7 +2113,6 @@ body .back_site .over .sendContactSection .container .section-9 .rightContactSec
   font-style: normal;
   font-weight: bold;
   line-height: 36px;
-  letter-spacing: 0em;
   text-align: left;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2182,7 +2153,6 @@ body .back_site .over .sendContactSection .container .section-9 .rightContactSec
   font-style: normal;
   font-weight: normal;
   line-height: 21.48px;
-  letter-spacing: 0em;
   text-align: left;
   color: #000000;
   border-radius: 0px;
@@ -2195,7 +2165,6 @@ body .back_site .over .sendContactSection .container .section-9 .rightContactSec
   font-style: normal;
   font-weight: normal;
   line-height: 21.5px;
-  letter-spacing: 0em;
   text-align: left;
   color: #828282;
 }
