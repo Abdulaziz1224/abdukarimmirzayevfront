@@ -845,6 +845,11 @@ body .back_site .over .section-3 .head-3 .question-3 {
   font-weight: lighter;
   line-height: 24px;
 }
+@media (max-width: 576px) {
+  body .back_site .over .section-3 .head-3 .question-3 {
+    font-size: 4.533vw !important;
+  }
+}
 body .back_site .over .section-3 .head-3 .title-3 {
   width: 70%;
   font-family: "SF Pro display";
@@ -1213,6 +1218,11 @@ body .back_site .over .section-4 .head-3 .question-3 {
   font-weight: lighter;
   line-height: 24px;
 }
+@media (max-width: 576px) {
+  body .back_site .over .section-4 .head-3 .question-3 {
+    font-size: 4.533vw !important;
+  }
+}
 body .back_site .over .section-4 .head-3 .title-3 {
   width: 70%;
   font-family: "SF Pro display";
@@ -1365,7 +1375,6 @@ body .back_site .over .section-5 .container .row .title_section p {
 @media (max-width: 576px) {
   body .back_site .over .section-5 .container .row .title_section p {
     font-size: 4.533vw !important;
-    line-height: 24px;
   }
 }
 body .back_site .over .section-5 .container .row .info_course {
@@ -2775,6 +2784,13 @@ body .back_site .over footer .container .row .socialNetworks .sociallyAgency spa
     color: #828282;
     margin-bottom: 20px;
   }
+}
+@media (min-width: 768px) and (max-width: 992px) and (max-width: 576px) {
+  body .back_site .over .section1 .container .left p {
+    font-size: 4.533vw !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
   body .back_site .over .section1 .container .right h2 {
     max-width: 570px;
     font-family: "SF Pro Display";
