@@ -2696,16 +2696,11 @@ body {
                   display: block;
                   margin-top: 20px;
                   font-family: "SF Pro Display";
-                  font-size: 16px;
                   font-style: normal;
                   font-weight: lighter;
                   line-height: 24px;
                   color: #828282;
                   width: 323px;
-
-                  @media (max-width: 576px) {
-                    font-size: 4.35vw !important;
-                  }
                 }
 
                 h2 {
@@ -2943,6 +2938,9 @@ body {
                   font-weight: lighter;
                   line-height: 24px;
                   max-width: 320px;
+                  color: #828282;
+
+                  font-size: 4.35vw !important;
                 }
               }
               @media (max-width: 336px) {
