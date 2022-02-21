@@ -1364,7 +1364,7 @@ body .back_site .over .section-5 .container .row .title_section p {
 }
 @media (max-width: 576px) {
   body .back_site .over .section-5 .container .row .title_section p {
-    font-size: 5.333vw !important;
+    font-size: 4.533vw !important;
     line-height: 24px;
   }
 }
