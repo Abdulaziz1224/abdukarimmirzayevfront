@@ -19,6 +19,10 @@ function play() {
 
   video.onended = function () {
     bigPlay.style.display = "block";
+    video.removeAttribute("controls");
+    s;
+    leftText.style.opacity = "1";
+    rightText.style.opacity = "1";
   };
 }
 
@@ -35,7 +39,10 @@ function play2() {
   smallPlay.style.display = "none";
 
   video.onended = function () {
+    video.removeAttribute("controls");
     smallPlay.style.display = "block";
+    leftText.style.opacity = "1";
+    rightText.style.opacity = "1";
   };
 }
 
