@@ -1382,6 +1382,12 @@ body .back_site .over .section-5 .container .row .title_section p {
   text-align: left;
   color: #828282;
 }
+@media (max-width: 576px) {
+  body .back_site .over .section-5 .container .row .title_section p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+}
 body .back_site .over .section-5 .container .row .info_course {
   max-width: 835px;
   width: 100%;
@@ -1464,6 +1470,12 @@ body .back_site .over .section-6 .container .course-information .title_section p
   letter-spacing: 0em;
   text-align: left;
   color: #828282;
+}
+@media (max-width: 576px) {
+  body .back_site .over .section-6 .container .course-information .title_section p {
+    line-height: 24px !important;
+    font-size: 16px !important;
+  }
 }
 body .back_site .over .section-6 .container .course-information .info-course {
   max-width: 835px;
@@ -2111,6 +2123,12 @@ body .back_site .over .sendContactSection .container .section-9 .leftContactSect
   letter-spacing: 0em;
   text-align: left;
   color: #828282;
+}
+@media (max-width: 576px) {
+  body .back_site .over .sendContactSection .container .section-9 .leftContactSection p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
 }
 body .back_site .over .sendContactSection .container .section-9 .rightContactSection {
   max-width: 835px;

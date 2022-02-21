@@ -1626,6 +1626,11 @@ body {
                 letter-spacing: 0em;
                 text-align: left;
                 color: #828282;
+
+                @media (max-width: 576px) {
+                  font-size: 16px !important;
+                  line-height: 24px !important;
+                }
               }
             }
             .info_course {
@@ -1720,6 +1725,11 @@ body {
                 letter-spacing: 0em;
                 text-align: left;
                 color: #828282;
+
+                @media (max-width: 576px) {
+                  line-height: 24px !important;
+                  font-size: 16px !important;
+                }
               }
             }
             .info-course {
@@ -2449,6 +2459,11 @@ body {
                 letter-spacing: 0em;
                 text-align: left;
                 color: #828282;
+
+                @media (max-width: 576px) {
+                  font-size: 16px !important;
+                  line-height: 24px !important;
+                }
               }
             }
 
