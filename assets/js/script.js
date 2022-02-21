@@ -21,8 +21,8 @@ function play() {
     bigPlay.style.display = "block";
     video.removeAttribute("controls");
     s;
-    leftText.style.opacity = "1";
-    rightText.style.opacity = "1";
+    // leftText.style.opacity = "1";
+    // rightText.style.opacity = "1";
   };
 }
 
@@ -41,8 +41,8 @@ function play2() {
   video.onended = function () {
     video.removeAttribute("controls");
     smallPlay.style.display = "block";
-    leftText.style.opacity = "1";
-    rightText.style.opacity = "1";
+    // leftText.style.opacity = "1";
+    // rightText.style.opacity = "1";
   };
 }
 

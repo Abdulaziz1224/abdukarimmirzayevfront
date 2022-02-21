@@ -967,7 +967,7 @@ body {
             line-height: 24px;
 
             @media (max-width: 576px) {
-              font-size: 4.350vw !important;
+              font-size: 4.35vw !important;
             }
           }
 
@@ -1441,7 +1441,7 @@ body {
             line-height: 24px;
 
             @media (max-width: 576px) {
-              font-size: 4.350vw !important;
+              font-size: 4.35vw !important;
             }
           }
 
@@ -1619,7 +1619,7 @@ body {
                 color: #828282;
 
                 @media (max-width: 576px) {
-                  font-size: 4.350vw !important;
+                  font-size: 4.35vw !important;
                 }
               }
             }
@@ -1715,7 +1715,7 @@ body {
                 color: #828282;
 
                 @media (max-width: 576px) {
-                  font-size: 4.350vw !important;
+                  font-size: 4.35vw !important;
                 }
               }
             }
@@ -1897,7 +1897,7 @@ body {
             margin-left: 20px;
 
             @media (max-width: 576px) {
-              font-size: 4.350vw !important;
+              font-size: 4.35vw !important;
             }
           }
 
@@ -2312,7 +2312,7 @@ body {
               margin-top: 4px;
 
               @media (max-width: 576px) {
-                font-size: 4.350vw !important;
+                font-size: 4.35vw !important;
               }
             }
           }
@@ -2449,7 +2449,7 @@ body {
                 color: #828282;
 
                 @media (max-width: 576px) {
-                  font-size: 4.350vw !important;
+                  font-size: 4.35vw !important;
                 }
               }
             }
@@ -3307,7 +3307,7 @@ body {
                 margin-bottom: 20px;
 
                 @media (max-width: 576px) {
-                  font-size: 4.350vw !important;
+                  font-size: 4.35vw !important;
                 }
               }
             }
@@ -3570,7 +3570,7 @@ body {
                 color: #828282;
 
                 @media (max-width: 576px) {
-                  font-size: 4.350vw !important;
+                  font-size: 4.35vw !important;
                 }
               }
             }
@@ -4028,6 +4028,21 @@ body {
       @media (max-width: 576px) {
         right: 20px;
         bottom: 20px;
+      }
+    }
+  }
+
+  @mixin obj($w, $h, $bg) {
+    width: $w;
+    height: $h;
+    background: $bg;
+  }
+
+  @mixin anim($listName, $delay) {
+    @each $currentBox in $listName {
+      $i: index($listName, $currentBox);
+      &:nth-child(#{$currentBox}) {
+        animation-delay: 0.1s * $i + $delay;
       }
     }
   }
