@@ -100,7 +100,7 @@ function checkAndSend1(name, tel) {
     }
     if (tel.length === 0) {
       showToast(
-        "Telefon raqamingizni quyidagi korinishda kiriting : +998912345678"
+        "Telefon raqamingizni quyidagi korinishlarda kiriting : +998912345678 991234567"
       );
     }
   }
@@ -108,7 +108,7 @@ function checkAndSend1(name, tel) {
     showToast("Ismingiz kamida 3ta harf bolishi kerak.");
   } else if (tel.length < 9 && !(tel.length === 0)) {
     showToast(
-      "Telefon raqamingizni quyidagi korinishda kiriting : +998912345678"
+      "Telefon raqamingizni quyidagi korinishlarda kiriting : +998912345678 991234567"
     );
   }
   if (name.length > 2 && tel.length >= 9) {
