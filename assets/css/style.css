@@ -46,7 +46,7 @@ body .back_site .action-btn.loading {
   position: relative;
 }
 body .back_site .action-btn.loading span {
-  color: transparent !important;
+  color: transparent;
 }
 body .back_site .action-btn.loading::after {
   opacity: 1;
@@ -850,10 +850,10 @@ body .back_site .over .section-3 .head-3 .question-3 {
   color: #828282;
   margin-right: 20px;
   font-family: "SF Pro display";
-  font-size: 16px !important;
+  font-size: 16px;
   font-style: normal;
   font-weight: lighter;
-  line-height: 24px !important;
+  line-height: 24px;
   letter-spacing: 0em;
 }
 body .back_site .over .section-3 .head-3 .title-3 {
@@ -974,8 +974,8 @@ body .back_site .over .section-3 .wrapper-3 .row .content {
     display: none;
   }
   body .back_site .over .section-3 .wrapper-3 .row .content .pinter {
-    width: 20px !important;
-    height: 13.5px !important;
+    width: 20px;
+    height: 13.5px;
     margin-left: -33px;
   }
   body .back_site .over .section-3 .wrapper-3 .row .content .sign3,
@@ -1042,8 +1042,8 @@ body .back_site .over .section-3 .wrapper-3 .row .content {
     display: none;
   }
   body .back_site .over .section-3 .wrapper-3 .row .content .pinter {
-    width: 20px !important;
-    height: 13.5px !important;
+    width: 20px;
+    height: 13.5px;
     margin-left: -33px;
   }
   body .back_site .over .section-3 .wrapper-3 .row .content .sign3,
@@ -1093,8 +1093,8 @@ body .back_site .over .section-3 .wrapper-3 .row .content .sign4 {
   body .back_site .over .section-3 .head-3 .question-3 {
     width: 100%;
     margin-bottom: 20px;
-    font-size: 16px !important;
-    line-height: 24px !important;
+    font-size: 16px;
+    line-height: 24px;
   }
   body .back_site .over .section-3 .head-3 .title-3 {
     width: 100%;
@@ -1130,9 +1130,9 @@ body .back_site .over .section-3 .wrapper-3 .row .content {
     position: relative;
   }
   body .back_site .over .section-3 .wrapper-3 .row .content .pinter {
-    width: 18px !important;
-    height: 12px !important;
-    margin-top: 5px !important;
+    width: 18px;
+    height: 12px;
+    margin-top: 5px;
   }
   body .back_site .over .section-3 .wrapper-3 .row .content .sign1 {
     margin-top: 10px;
@@ -1143,8 +1143,8 @@ body .back_site .over .section-3 .wrapper-3 .row .content {
     position: absolute;
     margin-right: -12px;
     right: 0;
-    transform: translate(0) !important;
-    transform: rotateY(180deg) !important;
+    transform: translate(0);
+    transform: rotateY(180deg);
   }
   body .back_site .over .section-3 .wrapper-3 .row .content .sign3 {
     margin-top: 10px;
@@ -1224,10 +1224,10 @@ body .back_site .over .section-4 .head-3 .question-3 {
   color: #828282;
   margin-right: 20px;
   font-family: "SF Pro display";
-  font-size: 16px !important;
+  font-size: 16px;
   font-style: normal;
   font-weight: lighter;
-  line-height: 24px !important;
+  line-height: 24px;
   letter-spacing: 0em;
 }
 body .back_site .over .section-4 .head-3 .title-3 {
@@ -1374,18 +1374,18 @@ body .back_site .over .section-5 .container .row .title_section {
 }
 body .back_site .over .section-5 .container .row .title_section p {
   font-family: "SF Pro Display";
-  font-size: 16px !important;
+  font-size: 16px;
   font-style: normal;
   font-weight: lighter;
-  line-height: 24px !important;
+  line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
   color: #828282;
 }
 @media (max-width: 576px) {
   body .back_site .over .section-5 .container .row .title_section p {
-    font-size: 16px !important;
-    line-height: 24px !important;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 body .back_site .over .section-5 .container .row .info_course {
@@ -1463,18 +1463,18 @@ body .back_site .over .section-6 .container .course-information .title_section {
 }
 body .back_site .over .section-6 .container .course-information .title_section p {
   font-family: "SF Pro Display";
-  font-size: 16px !important;
+  font-size: 16px;
   font-style: normal;
   font-weight: lighter;
-  line-height: 24px !important;
+  line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
   color: #828282;
 }
 @media (max-width: 576px) {
   body .back_site .over .section-6 .container .course-information .title_section p {
-    line-height: 24px !important;
-    font-size: 16px !important;
+    line-height: 24px;
+    font-size: 16px;
   }
 }
 body .back_site .over .section-6 .container .course-information .info-course {
@@ -1630,10 +1630,10 @@ body .back_site .over .section-7 .head-7 .question-3 {
   padding-right: 16px;
   color: #828282;
   font-family: "SF Pro display";
-  font-size: 16px !important;
+  font-size: 16px;
   font-style: normal;
   font-weight: lighter;
-  line-height: 24px !important;
+  line-height: 24px;
   letter-spacing: 0em;
   margin-left: 20px;
 }
@@ -1690,8 +1690,8 @@ body .back_site .over .section-7 .wrapper-7 .slide .frame .videoPopup .videoBox 
   display: none;
 }
 body .back_site .over .section-7 .wrapper-7 .slide .frame .videoPopup .videoBox .closePopup img {
-  width: 12px !important;
-  height: 12px !important;
+  width: 12px;
+  height: 12px;
 }
 body .back_site .over .section-7 .wrapper-7 .slide .frame .videoPopup .closePopup {
   position: absolute;
@@ -1705,8 +1705,8 @@ body .back_site .over .section-7 .wrapper-7 .slide .frame .videoPopup .closePopu
   cursor: pointer;
 }
 body .back_site .over .section-7 .wrapper-7 .slide .frame .videoPopup .closePopup img {
-  width: 12.75px !important;
-  height: 12.75px !important;
+  width: 12.75px;
+  height: 12.75px;
 }
 body .back_site .over .section-7 .wrapper-7 .slide .swiper {
   height: 250px;
@@ -1958,8 +1958,8 @@ body .back_site .over .section-7 .wrapper-7 .slide .swiper .swiper-button-next.s
     left: 85%;
   }
   body .back_site .over .section-7 .wrapper-7 .slide .swiper .swiper-button-next img {
-    width: 25px !important;
-    height: 15.56px !important;
+    width: 25px;
+    height: 15.56px;
   }
   body .back_site .over .section-7 .wrapper-7 .slide .swiper .swiper-button-prev {
     top: auto;
@@ -1970,8 +1970,8 @@ body .back_site .over .section-7 .wrapper-7 .slide .swiper .swiper-button-next.s
     left: 70%;
   }
   body .back_site .over .section-7 .wrapper-7 .slide .swiper .swiper-button-prev img {
-    width: 25px !important;
-    height: 15.56px !important;
+    width: 25px;
+    height: 15.56px;
   }
 }
 body .back_site .over .section8 {
@@ -1993,8 +1993,8 @@ body .back_site .over .section8 .container .left p {
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 300;
-  font-size: 16px !important;
-  line-height: 24px !important;
+  font-size: 16px;
+  line-height: 24px;
   color: #828282;
   margin-top: 4px;
 }
@@ -2116,18 +2116,18 @@ body .back_site .over .sendContactSection .container .section-9 .leftContactSect
 }
 body .back_site .over .sendContactSection .container .section-9 .leftContactSection p {
   font-family: "SF Pro Display";
-  font-size: 16px !important;
+  font-size: 16px;
   font-style: normal;
   font-weight: lighter;
-  line-height: 24px !important;
+  line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
   color: #828282;
 }
 @media (max-width: 576px) {
   body .back_site .over .sendContactSection .container .section-9 .leftContactSection p {
-    font-size: 16px !important;
-    line-height: 24px !important;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 body .back_site .over .sendContactSection .container .section-9 .rightContactSection {
@@ -2341,10 +2341,10 @@ body .back_site .over footer .container .row .socialNetworks .sociallyAgency spa
     display: block;
     margin-top: 20px;
     font-family: "SF Pro Display";
-    font-size: 16px !important;
+    font-size: 16px;
     font-style: normal;
     font-weight: lighter;
-    line-height: 24px !important;
+    line-height: 24px;
     width: 323px;
   }
   body .back_site .over .header .container .header_main .kurs h2 {

@@ -49,7 +49,7 @@ body {
     .action-btn.loading {
       position: relative;
       span {
-        color: transparent !important;
+        color: transparent;
       }
     }
 
@@ -968,10 +968,10 @@ body {
             color: #828282;
             margin-right: 20px;
             font-family: "SF Pro display";
-            font-size: 16px !important;
+            font-size: 16px;
             font-style: normal;
             font-weight: lighter;
-            line-height: 24px !important;
+            line-height: 24px;
             letter-spacing: 0em;
           }
 
@@ -1117,8 +1117,8 @@ body {
                 }
 
                 .pinter {
-                  width: 20px !important;
-                  height: 13.5px !important;
+                  width: 20px;
+                  height: 13.5px;
                   margin-left: -33px;
                 }
 
@@ -1202,8 +1202,8 @@ body {
                 }
 
                 .pinter {
-                  width: 20px !important;
-                  height: 13.5px !important;
+                  width: 20px;
+                  height: 13.5px;
                   margin-left: -33px;
                 }
 
@@ -1279,8 +1279,8 @@ body {
               width: 100%;
               margin-bottom: 20px;
 
-              font-size: 16px !important;
-              line-height: 24px !important;
+              font-size: 16px;
+              line-height: 24px;
             }
             .title-3 {
               width: 100%;
@@ -1323,9 +1323,9 @@ body {
                 position: relative;
 
                 .pinter {
-                  width: 18px !important;
-                  height: 12px !important;
-                  margin-top: 5px !important;
+                  width: 18px;
+                  height: 12px;
+                  margin-top: 5px;
                 }
 
                 .sign1 {
@@ -1338,8 +1338,8 @@ body {
                   position: absolute;
                   margin-right: -12px;
                   right: 0;
-                  transform: translate(0) !important;
-                  transform: rotateY(180deg) !important;
+                  transform: translate(0);
+                  transform: rotateY(180deg);
                 }
                 .sign3 {
                   margin-top: 10px;
@@ -1444,10 +1444,10 @@ body {
             color: #828282;
             margin-right: 20px;
             font-family: "SF Pro display";
-            font-size: 16px !important;
+            font-size: 16px;
             font-style: normal;
             font-weight: lighter;
-            line-height: 24px !important;
+            line-height: 24px;
             letter-spacing: 0em;
           }
 
@@ -1619,17 +1619,17 @@ body {
 
               p {
                 font-family: "SF Pro Display";
-                font-size: 16px !important;
+                font-size: 16px;
                 font-style: normal;
                 font-weight: lighter;
-                line-height: 24px !important;
+                line-height: 24px;
                 letter-spacing: 0em;
                 text-align: left;
                 color: #828282;
 
                 @media (max-width: 576px) {
-                  font-size: 16px !important;
-                  line-height: 24px !important;
+                  font-size: 16px;
+                  line-height: 24px;
                 }
               }
             }
@@ -1718,17 +1718,17 @@ body {
 
               p {
                 font-family: "SF Pro Display";
-                font-size: 16px !important;
+                font-size: 16px;
                 font-style: normal;
                 font-weight: lighter;
-                line-height: 24px !important;
+                line-height: 24px;
                 letter-spacing: 0em;
                 text-align: left;
                 color: #828282;
 
                 @media (max-width: 576px) {
-                  line-height: 24px !important;
-                  font-size: 16px !important;
+                  line-height: 24px;
+                  font-size: 16px;
                 }
               }
             }
@@ -1907,10 +1907,10 @@ body {
             padding-right: 16px;
             color: #828282;
             font-family: "SF Pro display";
-            font-size: 16px !important;
+            font-size: 16px;
             font-style: normal;
             font-weight: lighter;
-            line-height: 24px !important;
+            line-height: 24px;
             letter-spacing: 0em;
             margin-left: 20px;
           }
@@ -1971,15 +1971,15 @@ body {
                   .closePopup {
                     display: none;
                     img {
-                      width: 12px !important;
-                      height: 12px !important;
+                      width: 12px;
+                      height: 12px;
                     }
                   }
                 }
                 .closePopup {
                   img {
-                    width: 12.75px !important;
-                    height: 12.75px !important;
+                    width: 12.75px;
+                    height: 12.75px;
                   }
                   position: absolute;
                   top: 40px;
@@ -2280,8 +2280,8 @@ body {
                   // right: 6%;
                   left: 85%;
                   img {
-                    width: 25px !important;
-                    height: 15.56px !important;
+                    width: 25px;
+                    height: 15.56px;
                   }
                 }
                 .swiper-button-prev {
@@ -2292,8 +2292,8 @@ body {
                   bottom: 4.22px;
                   left: 70%;
                   img {
-                    width: 25px !important;
-                    height: 15.56px !important;
+                    width: 25px;
+                    height: 15.56px;
                   }
                 }
               }
@@ -2321,8 +2321,8 @@ body {
               font-family: "SF Pro Display";
               font-style: normal;
               font-weight: 300;
-              font-size: 16px !important;
-              line-height: 24px !important;
+              font-size: 16px;
+              line-height: 24px;
               color: #828282;
               margin-top: 4px;
             }
@@ -2452,17 +2452,17 @@ body {
 
               p {
                 font-family: "SF Pro Display";
-                font-size: 16px !important;
+                font-size: 16px;
                 font-style: normal;
                 font-weight: lighter;
-                line-height: 24px !important;
+                line-height: 24px;
                 letter-spacing: 0em;
                 text-align: left;
                 color: #828282;
 
                 @media (max-width: 576px) {
-                  font-size: 16px !important;
-                  line-height: 24px !important;
+                  font-size: 16px;
+                  line-height: 24px;
                 }
               }
             }
@@ -2712,10 +2712,10 @@ body {
                   display: block;
                   margin-top: 20px;
                   font-family: "SF Pro Display";
-                  font-size: 16px !important;
+                  font-size: 16px;
                   font-style: normal;
                   font-weight: lighter;
-                  line-height: 24px !important;
+                  line-height: 24px;
                   width: 323px;
                 }
 
