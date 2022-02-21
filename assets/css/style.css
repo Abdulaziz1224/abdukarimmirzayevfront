@@ -2330,11 +2330,21 @@ body .back_site .over footer .container .row .socialNetworks .sociallyAgency spa
     font-style: normal;
     font-weight: lighter;
     line-height: 24px;
+    color: #828282;
     width: 323px;
   }
+}
+@media (max-width: 992px) and (max-width: 576px) {
+  body .back_site .over .header .container .header_main .kurs .block {
+    font-size: 4.35vw !important;
+  }
+}
+@media (max-width: 992px) {
   body .back_site .over .header .container .header_main .kurs h2 {
     width: 541px;
   }
+}
+@media (max-width: 992px) {
   body .back_site .over .section-6 .container .course-information {
     flex-direction: column;
   }
@@ -2352,6 +2362,8 @@ body .back_site .over footer .container .row .socialNetworks .sociallyAgency spa
     font-size: 24px;
     line-height: 32px;
   }
+}
+@media (max-width: 992px) {
   body .back_site .over .sendContactSection .container .section-9 {
     flex-direction: column;
   }
@@ -2368,6 +2380,8 @@ body .back_site .over footer .container .row .socialNetworks .sociallyAgency spa
   body .back_site .over .sendContactSection .container .section-9 .rightContactSection .sendInfos .formTop form .input:last-child {
     margin-right: 0;
   }
+}
+@media (max-width: 992px) {
   body .back_site .over footer .container .row {
     justify-content: space-between;
     align-items: flex-start;
