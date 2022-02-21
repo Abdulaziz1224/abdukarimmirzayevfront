@@ -1143,8 +1143,7 @@ body .back_site .over .section-3 .wrapper-3 .row .content {
     position: absolute;
     margin-right: -12px;
     right: 0;
-    transform: translate(0);
-    transform: rotateY(180deg);
+    transform: rotateY(180deg) translate(0) !important;
   }
   body .back_site .over .section-3 .wrapper-3 .row .content .sign3 {
     margin-top: 10px;

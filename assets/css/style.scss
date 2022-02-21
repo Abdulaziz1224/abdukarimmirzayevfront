@@ -1,5 +1,8 @@
 @import url("../fonts/stylesheet.css");
 @import url("../fonts/ProximaNovaFonts/stylesheet.css");
+
+$mobile-font: 4.267vw;
+
 $green-color: #4b9e50;
 * {
   margin: 0;
@@ -1338,8 +1341,7 @@ body {
                   position: absolute;
                   margin-right: -12px;
                   right: 0;
-                  transform: translate(0);
-                  transform: rotateY(180deg);
+                  transform: rotateY(180deg) translate(0) !important;
                 }
                 .sign3 {
                   margin-top: 10px;
