@@ -846,14 +846,14 @@ body .back_site .over .section-3 .head-3 {
 }
 body .back_site .over .section-3 .head-3 .question-3 {
   max-width: 265px;
-  width: 30%;
+  width: auto;
   color: #828282;
   margin-right: 20px;
   font-family: "SF Pro display";
-  font-size: 16px;
+  font-size: 16px !important;
   font-style: normal;
   font-weight: lighter;
-  line-height: 24px;
+  line-height: 24px !important;
   letter-spacing: 0em;
 }
 body .back_site .over .section-3 .head-3 .title-3 {
@@ -1224,10 +1224,10 @@ body .back_site .over .section-4 .head-3 .question-3 {
   color: #828282;
   margin-right: 20px;
   font-family: "SF Pro display";
-  font-size: 16px;
+  font-size: 16px !important;
   font-style: normal;
   font-weight: lighter;
-  line-height: 24px;
+  line-height: 24px !important;
   letter-spacing: 0em;
 }
 body .back_site .over .section-4 .head-3 .title-3 {
@@ -1374,10 +1374,10 @@ body .back_site .over .section-5 .container .row .title_section {
 }
 body .back_site .over .section-5 .container .row .title_section p {
   font-family: "SF Pro Display";
-  font-size: 16px;
+  font-size: 16px !important;
   font-style: normal;
   font-weight: lighter;
-  line-height: 24px;
+  line-height: 24px !important;
   letter-spacing: 0em;
   text-align: left;
   color: #828282;
@@ -1457,10 +1457,10 @@ body .back_site .over .section-6 .container .course-information .title_section {
 }
 body .back_site .over .section-6 .container .course-information .title_section p {
   font-family: "SF Pro Display";
-  font-size: 16px;
+  font-size: 16px !important;
   font-style: normal;
   font-weight: lighter;
-  line-height: 24px;
+  line-height: 24px !important;
   letter-spacing: 0em;
   text-align: left;
   color: #828282;
@@ -1618,10 +1618,10 @@ body .back_site .over .section-7 .head-7 .question-3 {
   padding-right: 16px;
   color: #828282;
   font-family: "SF Pro display";
-  font-size: 16px;
+  font-size: 16px !important;
   font-style: normal;
   font-weight: lighter;
-  line-height: 24px;
+  line-height: 24px !important;
   letter-spacing: 0em;
   margin-left: 20px;
 }
@@ -1981,8 +1981,8 @@ body .back_site .over .section8 .container .left p {
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 16px !important;
+  line-height: 24px !important;
   color: #828282;
   margin-top: 4px;
 }
@@ -2104,10 +2104,10 @@ body .back_site .over .sendContactSection .container .section-9 .leftContactSect
 }
 body .back_site .over .sendContactSection .container .section-9 .leftContactSection p {
   font-family: "SF Pro Display";
-  font-size: 16px;
+  font-size: 16px !important;
   font-style: normal;
   font-weight: lighter;
-  line-height: 24px;
+  line-height: 24px !important;
   letter-spacing: 0em;
   text-align: left;
   color: #828282;
@@ -2323,10 +2323,10 @@ body .back_site .over footer .container .row .socialNetworks .sociallyAgency spa
     display: block;
     margin-top: 20px;
     font-family: "SF Pro Display";
-    font-size: 16px;
+    font-size: 16px !important;
     font-style: normal;
     font-weight: lighter;
-    line-height: 24px;
+    line-height: 24px !important;
     width: 323px;
   }
   body .back_site .over .header .container .header_main .kurs h2 {

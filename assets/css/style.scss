@@ -964,14 +964,14 @@ body {
           margin-bottom: 40px;
           .question-3 {
             max-width: 265px;
-            width: 30%;
+            width: auto;
             color: #828282;
             margin-right: 20px;
             font-family: "SF Pro display";
-            font-size: 16px;
+            font-size: 16px !important;
             font-style: normal;
             font-weight: lighter;
-            line-height: 24px;
+            line-height: 24px !important;
             letter-spacing: 0em;
           }
 
@@ -1444,10 +1444,10 @@ body {
             color: #828282;
             margin-right: 20px;
             font-family: "SF Pro display";
-            font-size: 16px;
+            font-size: 16px !important;
             font-style: normal;
             font-weight: lighter;
-            line-height: 24px;
+            line-height: 24px !important;
             letter-spacing: 0em;
           }
 
@@ -1619,10 +1619,10 @@ body {
 
               p {
                 font-family: "SF Pro Display";
-                font-size: 16px;
+                font-size: 16px !important;
                 font-style: normal;
                 font-weight: lighter;
-                line-height: 24px;
+                line-height: 24px !important;
                 letter-spacing: 0em;
                 text-align: left;
                 color: #828282;
@@ -1713,10 +1713,10 @@ body {
 
               p {
                 font-family: "SF Pro Display";
-                font-size: 16px;
+                font-size: 16px !important;
                 font-style: normal;
                 font-weight: lighter;
-                line-height: 24px;
+                line-height: 24px !important;
                 letter-spacing: 0em;
                 text-align: left;
                 color: #828282;
@@ -1897,10 +1897,10 @@ body {
             padding-right: 16px;
             color: #828282;
             font-family: "SF Pro display";
-            font-size: 16px;
+            font-size: 16px !important;
             font-style: normal;
             font-weight: lighter;
-            line-height: 24px;
+            line-height: 24px !important;
             letter-spacing: 0em;
             margin-left: 20px;
           }
@@ -2311,8 +2311,8 @@ body {
               font-family: "SF Pro Display";
               font-style: normal;
               font-weight: 300;
-              font-size: 16px;
-              line-height: 24px;
+              font-size: 16px !important;
+              line-height: 24px !important;
               color: #828282;
               margin-top: 4px;
             }
@@ -2442,10 +2442,10 @@ body {
 
               p {
                 font-family: "SF Pro Display";
-                font-size: 16px;
+                font-size: 16px !important;
                 font-style: normal;
                 font-weight: lighter;
-                line-height: 24px;
+                line-height: 24px !important;
                 letter-spacing: 0em;
                 text-align: left;
                 color: #828282;
@@ -2697,10 +2697,10 @@ body {
                   display: block;
                   margin-top: 20px;
                   font-family: "SF Pro Display";
-                  font-size: 16px;
+                  font-size: 16px !important;
                   font-style: normal;
                   font-weight: lighter;
-                  line-height: 24px;
+                  line-height: 24px !important;
                   width: 323px;
                 }
 
