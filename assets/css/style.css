@@ -1460,8 +1460,7 @@ body .back_site .over .section-6 .container .course-information .title_section p
 }
 @media (max-width: 576px) {
   body .back_site .over .section-6 .container .course-information .title_section p {
-    line-height: 24px;
-    font-size: 16px;
+    font-size: 4.533vw !important;
   }
 }
 body .back_site .over .section-6 .container .course-information .info-course {
@@ -1618,6 +1617,11 @@ body .back_site .over .section-7 .head-7 .question-3 {
   font-weight: lighter;
   line-height: 24px;
   margin-left: 20px;
+}
+@media (max-width: 576px) {
+  body .back_site .over .section-7 .head-7 .question-3 {
+    font-size: 4.533vw !important;
+  }
 }
 body .back_site .over .section-7 .head-7 .title-3 {
   width: 70%;
@@ -1979,6 +1983,11 @@ body .back_site .over .section8 .container .left p {
   color: #828282;
   margin-top: 4px;
 }
+@media (max-width: 576px) {
+  body .back_site .over .section8 .container .left p {
+    font-size: 4.533vw !important;
+  }
+}
 body .back_site .over .section8 .container .right {
   display: grid;
   -webkit-font-smoothing: antialiased;
@@ -2106,8 +2115,7 @@ body .back_site .over .sendContactSection .container .section-9 .leftContactSect
 }
 @media (max-width: 576px) {
   body .back_site .over .sendContactSection .container .section-9 .leftContactSection p {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 4.533vw !important;
   }
 }
 body .back_site .over .sendContactSection .container .section-9 .rightContactSection {

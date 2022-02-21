@@ -5,39 +5,43 @@ let leftText = document.querySelector(".leftText");
 let rightText = document.querySelector(".rightText");
 let video = document.querySelector("video");
 
-function play() {
-  video.autoplay = "true";
-  video.load();
+let bigPlay = document.querySelector(".bigPlay");
+let smallPlay = document.querySelector(".smallPlay");
+let leftText = document.querySelector(".leftText");
+let rightText = document.querySelector(".rightText");
+let video = document.querySelector("video");
 
-  video.controls = "true";
-
-  leftText.style.opacity = "0";
-  rightText.style.opacity = "0";
-
-  bigPlay.style.display = "none";
-  smallPlay.style.display = "none";
-
+bigPlay.addEventListener("click", (e) => {
+  if (video.paused) {
+    video.play();
+    video.controls = "true";
+    bigPlay.style.display = "none";
+    leftText.style.display = "none";
+    rightText.style.display = "none";
+  }
   video.onended = function () {
     bigPlay.style.display = "block";
+    video.removeAttribute("controls");
+    leftText.style.display = "block";
+    rightText.style.display = "block";
   };
-}
+});
 
-function play2() {
-  video.autoplay = "true";
-  video.load();
-
-  video.controls = "true";
-
-  leftText.style.opacity = "0";
-  rightText.style.opacity = "0";
-
-  bigPlay.style.display = "none";
-  smallPlay.style.display = "none";
-
+smallPlay.addEventListener("click", (e) => {
+  if (video.paused) {
+    video.play();
+    video.controls = "true";
+    smallPlay.style.display = "none";
+    leftText.style.display = "none";
+    rightText.style.display = "none";
+  }
   video.onended = function () {
     smallPlay.style.display = "block";
+    video.removeAttribute("controls");
+    leftText.style.display = "block";
+    rightText.style.display = "block";
   };
-}
+});
 
 // ================= CREATE ACCARDION MAP ========================== //
 
