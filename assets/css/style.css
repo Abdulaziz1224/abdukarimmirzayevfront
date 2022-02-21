@@ -847,7 +847,7 @@ body .back_site .over .section-3 .head-3 .question-3 {
 }
 @media (max-width: 576px) {
   body .back_site .over .section-3 .head-3 .question-3 {
-    font-size: 4.533vw !important;
+    font-size: 4.35vw !important;
   }
 }
 body .back_site .over .section-3 .head-3 .title-3 {
@@ -1220,7 +1220,7 @@ body .back_site .over .section-4 .head-3 .question-3 {
 }
 @media (max-width: 576px) {
   body .back_site .over .section-4 .head-3 .question-3 {
-    font-size: 4.533vw !important;
+    font-size: 4.35vw !important;
   }
 }
 body .back_site .over .section-4 .head-3 .title-3 {
@@ -1374,7 +1374,7 @@ body .back_site .over .section-5 .container .row .title_section p {
 }
 @media (max-width: 576px) {
   body .back_site .over .section-5 .container .row .title_section p {
-    font-size: 4.533vw !important;
+    font-size: 4.35vw !important;
   }
 }
 body .back_site .over .section-5 .container .row .info_course {
@@ -1460,7 +1460,7 @@ body .back_site .over .section-6 .container .course-information .title_section p
 }
 @media (max-width: 576px) {
   body .back_site .over .section-6 .container .course-information .title_section p {
-    font-size: 4.533vw !important;
+    font-size: 4.35vw !important;
   }
 }
 body .back_site .over .section-6 .container .course-information .info-course {
@@ -1620,7 +1620,7 @@ body .back_site .over .section-7 .head-7 .question-3 {
 }
 @media (max-width: 576px) {
   body .back_site .over .section-7 .head-7 .question-3 {
-    font-size: 4.533vw !important;
+    font-size: 4.35vw !important;
   }
 }
 body .back_site .over .section-7 .head-7 .title-3 {
@@ -1985,7 +1985,7 @@ body .back_site .over .section8 .container .left p {
 }
 @media (max-width: 576px) {
   body .back_site .over .section8 .container .left p {
-    font-size: 4.533vw !important;
+    font-size: 4.35vw !important;
   }
 }
 body .back_site .over .section8 .container .right {
@@ -2115,7 +2115,7 @@ body .back_site .over .sendContactSection .container .section-9 .leftContactSect
 }
 @media (max-width: 576px) {
   body .back_site .over .sendContactSection .container .section-9 .leftContactSection p {
-    font-size: 4.533vw !important;
+    font-size: 4.35vw !important;
   }
 }
 body .back_site .over .sendContactSection .container .section-9 .rightContactSection {
@@ -2795,7 +2795,7 @@ body .back_site .over footer .container .row .socialNetworks .sociallyAgency spa
 }
 @media (min-width: 768px) and (max-width: 992px) and (max-width: 576px) {
   body .back_site .over .section1 .container .left p {
-    font-size: 4.533vw !important;
+    font-size: 4.35vw !important;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -3042,6 +3042,13 @@ body .back_site .over footer .container .row .socialNetworks .sociallyAgency spa
     line-height: 24px;
     color: #828282;
   }
+}
+@media (max-width: 496px) and (max-width: 576px) {
+  body .back_site .over .section1 .container .left p {
+    font-size: 4.35vw !important;
+  }
+}
+@media (max-width: 496px) {
   body .back_site .over .section1 .container .right h2 {
     max-width: 335px;
     font-family: "SF Pro Display";

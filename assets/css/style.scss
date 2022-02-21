@@ -967,7 +967,7 @@ body {
             line-height: 24px;
 
             @media (max-width: 576px) {
-              font-size: 4.533vw !important;
+              font-size: 4.350vw !important;
             }
           }
 
@@ -1441,7 +1441,7 @@ body {
             line-height: 24px;
 
             @media (max-width: 576px) {
-              font-size: 4.533vw !important;
+              font-size: 4.350vw !important;
             }
           }
 
@@ -1619,7 +1619,7 @@ body {
                 color: #828282;
 
                 @media (max-width: 576px) {
-                  font-size: 4.533vw !important;
+                  font-size: 4.350vw !important;
                 }
               }
             }
@@ -1715,7 +1715,7 @@ body {
                 color: #828282;
 
                 @media (max-width: 576px) {
-                  font-size: 4.533vw !important;
+                  font-size: 4.350vw !important;
                 }
               }
             }
@@ -1897,7 +1897,7 @@ body {
             margin-left: 20px;
 
             @media (max-width: 576px) {
-              font-size: 4.533vw !important;
+              font-size: 4.350vw !important;
             }
           }
 
@@ -2312,7 +2312,7 @@ body {
               margin-top: 4px;
 
               @media (max-width: 576px) {
-                font-size: 4.533vw !important;
+                font-size: 4.350vw !important;
               }
             }
           }
@@ -2449,7 +2449,7 @@ body {
                 color: #828282;
 
                 @media (max-width: 576px) {
-                  font-size: 4.533vw !important;
+                  font-size: 4.350vw !important;
                 }
               }
             }
@@ -3307,7 +3307,7 @@ body {
                 margin-bottom: 20px;
 
                 @media (max-width: 576px) {
-                  font-size: 4.533vw !important;
+                  font-size: 4.350vw !important;
                 }
               }
             }
@@ -3568,6 +3568,10 @@ body {
                 font-size: 16px;
                 line-height: 24px;
                 color: #828282;
+
+                @media (max-width: 576px) {
+                  font-size: 4.350vw !important;
+                }
               }
             }
             .right {
