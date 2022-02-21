@@ -2844,6 +2844,16 @@ body .back_site .over footer .container .row .socialNetworks .sociallyAgency spa
     transform: translateX(-20px);
   }
 }
+@media (max-width: 516px) {
+  body .back_site .over .header .container .header_main .kurs .block {
+    font-size: 3.101vw !important;
+  }
+}
+@media (max-width: 426px) {
+  body .back_site .over .header .container .header_main .kurs .block {
+    font-size: 4vw !important;
+  }
+}
 @media (min-width: 768px) and (max-width: 992px) {
   body .back_site .over .section1 {
     width: 100%;

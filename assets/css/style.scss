@@ -3330,6 +3330,33 @@ body {
         }
       }
 
+      @media (max-width: 516px) {
+        .header {
+          .container {
+            .header_main {
+              .kurs {
+                .block {
+                  font-size: 3.101vw !important;
+                }
+              }
+            }
+          }
+        }
+      }
+      @media (max-width: 426px) {
+        .header {
+          .container {
+            .header_main {
+              .kurs {
+                .block {
+                  font-size: 4vw !important;
+                }
+              }
+            }
+          }
+        }
+      }
+
       // MMM-STYLE
 
       //  SECTION1-MEDIA-START
