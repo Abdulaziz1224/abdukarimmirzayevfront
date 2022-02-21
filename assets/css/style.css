@@ -1093,8 +1093,8 @@ body .back_site .over .section-3 .wrapper-3 .row .content .sign4 {
   body .back_site .over .section-3 .head-3 .question-3 {
     width: 100%;
     margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 16px !important;
+    line-height: 24px !important;
   }
   body .back_site .over .section-3 .head-3 .title-3 {
     width: 100%;
@@ -1904,7 +1904,7 @@ body .back_site .over .section-7 .wrapper-7 .slide .swiper .swiper-button-next.s
     max-width: 100%;
     width: 100%;
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
   }
   body .back_site .over .section-7 .head-7 .title-3 {
