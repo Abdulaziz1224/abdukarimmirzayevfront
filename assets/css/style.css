@@ -1318,7 +1318,7 @@ body .back_site .over .section-4 .wrapper-4 .line-4 {
   body .back_site .over .section-4 .head-4 .head-3 .question-3 {
     width: 100%;
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 4.267vw;
     line-height: 24px;
   }
   body .back_site .over .section-4 .head-4 .head-3 .title-3 {
@@ -1383,7 +1383,7 @@ body .back_site .over .section-5 .container .row .title_section p {
 }
 @media (max-width: 576px) {
   body .back_site .over .section-5 .container .row .title_section p {
-    font-size: 16px;
+    font-size: 4.267vw !important;
     line-height: 24px;
   }
 }

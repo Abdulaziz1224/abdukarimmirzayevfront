@@ -1556,7 +1556,7 @@ body {
                 width: 100%;
                 margin-bottom: 20px;
 
-                font-size: 16px;
+                font-size: 4.267vw;
                 line-height: 24px;
               }
               .title-3 {
@@ -1630,7 +1630,7 @@ body {
                 color: #828282;
 
                 @media (max-width: 576px) {
-                  font-size: 16px;
+                  font-size: 4.267vw !important;
                   line-height: 24px;
                 }
               }
