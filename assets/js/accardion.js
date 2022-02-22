@@ -1,6 +1,6 @@
 var accar = [
   {
-    id: 1,
+    id: "1",
     title: "Storytelling nima?",
     post: [
       {
@@ -12,7 +12,7 @@ var accar = [
     ],
   },
   {
-    id: 2,
+    id: "2",
     title: "Kopirayterlik va hikoya jozibasi",
     post: [
       {
@@ -25,7 +25,7 @@ var accar = [
   },
 
   {
-    id: 3,
+    id: "3",
     title: "Mavzu topish va tadqiq qilish",
     post: [
       {
@@ -40,7 +40,7 @@ var accar = [
     ],
   },
   {
-    id: 4,
+    id: "4",
     title: "Nutq va gapirish usullari",
     post: [
       {
@@ -52,7 +52,7 @@ var accar = [
     ],
   },
   {
-    id: 5,
+    id: "5",
     title: "Kamera qarshisida ishlash",
     post: [
       {
@@ -64,7 +64,7 @@ var accar = [
     ],
   },
   {
-    id: 6,
+    id: "6",
     title: "Tasvirga olish vositalari va vizual kompozitsiya",
     post: [
       {
@@ -76,7 +76,7 @@ var accar = [
     ],
   },
   {
-    id: 7,
+    id: "7",
     title: "Studiya sharoitida ishlash",
     post: [
       {
@@ -88,11 +88,26 @@ var accar = [
     ],
   },
   {
-    id: 8,
-    title: "Montaj asoslari va uning tartibi",
+    id: "8",
+    title: "Darslar yuzasidan savol-javob",
     post: [
       {
-        p: "— Ushbu darsda montaj asoslari va uning tartibi haqida gaplashamiz. Kadrlarning keraksiz qismlarini tozalash, yordamchi kadrlar va animatsiyalar bilan boyitish, ranglardan toʻgʻri foydalanish, qoʻshimcha ovozlar va effektlar ishlatishni oʻrganamiz. ",
+        p: "— Kurs davomida o‘rgatiglan bilimlar yuzasidan savol-javob bo‘lib o‘tadi. Ushbu darsda, kursda o‘tilgan mavzularni tahlil qilish va ularni amaliyotda qo‘llashga doir bilimlar beriladi.",
+      },
+    ],
+  },
+  {
+    id: "9",
+    title: "Maxsus bonus darslar",
+    post: [
+      {
+        p: "— Storytelling oʻquvchilari uchun kursdan tashqari maxsus bonus darslar beriladi. ",
+      },
+      {
+        p: "— Ushbu darslarning biri ovozni sozlashga doir boʼlib, unda ovozingiz bilan bogʻliq barcha muammoga yechim topasiz. Dars zoom orqali onlayn boʻlib oʻtadi.",
+      },
+      {
+        p: "— 2- bonus dars shaxsiy rivojlanishga doir boʼladi va u videodarslik shaklida taqdim etiladi.",
       },
     ],
   },

@@ -390,6 +390,34 @@ body .back_site .sign_up_btn span {
   width: 148px;
   margin-left: -8px;
 }
+body .back_site .amoforms_overlay {
+  margin: auto !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center !important;
+}
+body .back_site #amoforms_action_btn {
+  border: none !important;
+  border-radius: 0 !important;
+  cursor: pointer;
+  margin-top: 40px !important;
+  padding: 20px !important;
+  max-width: 246px !important;
+  width: 100% !important;
+  height: 61px !important;
+  background-color: #4b9e50 !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+body .back_site #amoforms_iframe_882466 {
+  max-width: 400px !important;
+}
+@media (max-width: 400px) {
+  body .back_site #amoforms_iframe_882466 {
+    width: 95% !important;
+    max-width: 95%;
+  }
+}
 body .back_site .over {
   padding: 0 40px;
   overflow: hidden;
@@ -924,7 +952,8 @@ body .back_site .over .section-3 .wrapper-3 .row .last-content .box p {
   font-weight: bold;
   line-height: 36px;
 }
-body .back_site .over .section-3 .wrapper-3 .row .last-content .box button {
+body .back_site .over .section-3 .wrapper-3 .row .last-content .box a {
+  display: block;
   font-family: "SF Pro display";
   margin-top: 40px;
   border: none;
@@ -2148,133 +2177,96 @@ body .back_site .over .section8 .container .right .bottom .right .box1 .conteinB
   line-height: 36px;
   color: #4b9e50;
 }
-body .back_site .over .sendContactSection {
+body .back_site .over .section9 {
   width: 100%;
-  margin: 80px 0;
+  margin: 80px 0px;
 }
-body .back_site .over .sendContactSection .container {
+body .back_site .over .section9 .container {
   max-width: 1120px;
   margin: auto;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: auto auto;
 }
-body .back_site .over .sendContactSection .container .section-9 {
-  display: flex;
-}
-body .back_site .over .sendContactSection .container .section-9 .leftContactSection {
-  max-width: 265px;
-  width: 30%;
-  margin-right: 20px;
-}
-body .back_site .over .sendContactSection .container .section-9 .leftContactSection p {
-  font-family: "SF Pro Display";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: lighter;
-  line-height: 24px;
+body .back_site .over .section9 .container .left {
+  width: 265px;
   text-align: left;
+  margin-right: 20px;
+  margin-top: 4px;
+}
+body .back_site .over .section9 .container .left p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
   color: #828282;
 }
-@media (max-width: 576px) {
-  body .back_site .over .sendContactSection .container .section-9 .leftContactSection p {
-    font-size: 2.951vw !important;
-  }
-}
-@media (max-width: 516px) {
-  body .back_site .over .sendContactSection .container .section-9 .leftContactSection p {
-    font-size: 3.101vw !important;
-  }
-}
-@media (max-width: 426px) {
-  body .back_site .over .sendContactSection .container .section-9 .leftContactSection p {
-    font-size: 4vw !important;
-  }
-}
-body .back_site .over .sendContactSection .container .section-9 .rightContactSection {
-  max-width: 835px;
-  width: 100%;
-}
-body .back_site .over .sendContactSection .container .section-9 .rightContactSection h3 {
+body .back_site .over .section9 .container .right .texts h2 {
   width: 475px;
-  padding-bottom: 40px;
   font-family: "SF Pro Display";
-  font-size: 28px;
   font-style: normal;
   font-weight: bold;
+  font-size: 28px;
   line-height: 36px;
-  text-align: left;
+  margin-bottom: 20px;
+  color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-body .back_site .over .sendContactSection .container .section-9 .rightContactSection h3 .green-text {
+body .back_site .over .section9 .container .right .texts h2 span {
   color: #4b9e50;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-body .back_site .over .sendContactSection .container .section-9 .rightContactSection .sendInfos {
-  max-width: 100%;
-  background: #fafafa;
+body .back_site .over .section9 .container .right .texts .fadbeck {
+  width: 489px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #828282;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body .back_site .over .section9 .container .right .texts .middle {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body .back_site .over .section9 .container .right .registration {
+  max-width: 835px;
   padding: 40px;
-  display: flex;
-  flex-direction: column;
+  margin-top: 40px;
+  background-color: #fafafa;
+  display: grid;
+  grid-template-columns: auto auto;
 }
-body .back_site .over .sendContactSection .container .section-9 .rightContactSection .sendInfos .formTop {
-  width: 100%;
-  margin-bottom: 20px;
-}
-body .back_site .over .sendContactSection .container .section-9 .rightContactSection .sendInfos .formTop form {
-  display: flex;
-}
-body .back_site .over .sendContactSection .container .section-9 .rightContactSection .sendInfos .formTop form .input {
-  width: 300px;
-  margin-right: 20px;
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-body .back_site .over .sendContactSection .container .section-9 .rightContactSection .sendInfos .formTop form .input input {
-  width: 100%;
+body .back_site .over .section9 .container .right .registration .btn a {
+  width: 246px;
   padding: 20px;
+  background-color: #4b9e50;
   border: none;
   outline: none;
-  background: transparent;
-  border: 1.5px solid #4b9e50;
   font-family: "SF Pro Display";
-  font-size: 18px;
   font-style: normal;
   font-weight: normal;
-  line-height: 21.48px;
-  text-align: left;
-  color: #000000;
-  border-radius: 0px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-right: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-body .back_site .over .sendContactSection .container .section-9 .rightContactSection .sendInfos .formTop form .input input::placeholder {
+body .back_site .over .section9 .container .right .registration .text p {
   font-family: "SF Pro Display";
-  font-size: 18px;
   font-style: normal;
-  font-weight: normal;
-  line-height: 21.5px;
-  text-align: left;
-  color: #828282;
-}
-body .back_site .over .sendContactSection .container .section-9 .rightContactSection .sendInfos .formTop form .input img {
-  position: absolute;
-  top: 23px;
-  right: 23px;
-  pointer-events: none;
-}
-body .back_site .over .sendContactSection .container .section-9 .rightContactSection .sendInfos .formBottom {
-  display: flex;
-}
-body .back_site .over .sendContactSection .container .section-9 .rightContactSection .sendInfos .formBottom p {
-  width: 426px;
-  font-family: "SF Pro Display";
-  font-size: 17px;
-  font-style: normal;
-  font-weight: lighter;
+  font-weight: 300;
+  font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0.29px;
-  text-align: left;
   color: #828282;
-  margin-left: 20px;
 }
 body .back_site .over footer {
   background-color: #4b9e50;
@@ -3571,6 +3563,194 @@ body .back_site .over footer .container .row .socialNetworks .sociallyAgency spa
     font-size: 24px;
     line-height: 32px;
     color: #4b9e50;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  body .back_site .over .section9 {
+    width: 100%;
+    margin: 80px 0px;
+  }
+  body .back_site .over .section9 .container {
+    max-width: 1120px;
+    padding: 0 0px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  body .back_site .over .section9 .container .left {
+    width: 300px;
+    text-align: left;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  body .back_site .over .section9 .container .left p {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+  }
+  body .back_site .over .section9 .container .right .texts h2 {
+    width: 475px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body .back_site .over .section9 .container .right .texts h2 span {
+    color: #4b9e50;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body .back_site .over .section9 .container .right .texts .fadbeck {
+    width: 489px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #828282;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body .back_site .over .section9 .container .right .texts .middle {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body .back_site .over .section9 .container .right .registration {
+    max-width: 835px;
+    padding: 40px;
+    margin-top: 40px;
+    background-color: #fafafa;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  body .back_site .over .section9 .container .right .registration .btn button {
+    width: 246px;
+    padding: 20px;
+    background-color: #4b9e50;
+    border: none;
+    outline: none;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    margin-right: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body .back_site .over .section9 .container .right .registration .text p {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+  }
+}
+@media (max-width: 767px) {
+  body .back_site .over .section9 {
+    width: 100%;
+    margin: 80px 0px;
+  }
+  body .back_site .over .section9 .container {
+    max-width: 1120px;
+    padding: 0 0px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  body .back_site .over .section9 .container .left {
+    width: 300px;
+    text-align: left;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  body .back_site .over .section9 .container .left p {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+  }
+  body .back_site .over .section9 .container .right .texts h2 {
+    width: 100%;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body .back_site .over .section9 .container .right .texts h2 span {
+    color: #4b9e50;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body .back_site .over .section9 .container .right .texts .fadbeck {
+    width: 100%;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body .back_site .over .section9 .container .right .texts .middle {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body .back_site .over .section9 .container .right .registration {
+    max-width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #fafafa;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  body .back_site .over .section9 .container .right .registration .btn button {
+    width: 100%;
+    padding: 20px;
+    background-color: #4b9e50;
+    border: none;
+    outline: none;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    margin-right: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body .back_site .over .section9 .container .right .registration .text p {
+    width: 100%;
+    margin-top: 20px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
   }
 }
 body .back_site .sendPhone {

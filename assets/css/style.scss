@@ -450,6 +450,33 @@ body {
       }
     }
 
+    .amoforms_overlay {
+      margin: auto !important;
+      display: flex !important;
+      align-items: center;
+      justify-content: center !important;
+    }
+    #amoforms_action_btn {
+      border: none !important;
+      border-radius: 0 !important;
+      cursor: pointer;
+      margin-top: 40px !important;
+      padding: 20px !important;
+      max-width: 246px !important;
+      width: 100% !important;
+      height: 61px !important;
+      background-color: $green-color !important;
+      -webkit-font-smoothing: antialiased !important;
+      -moz-osx-font-smoothing: grayscale !important;
+    }
+    #amoforms_iframe_882466 {
+      max-width: 400px !important;
+
+      @media (max-width: 400px) {
+        width: 95% !important;
+        max-width: 95%;
+      }
+    }
     .over {
       padding: 0 40px;
       overflow: hidden;
@@ -473,7 +500,6 @@ body {
             left: 0;
             z-index: 9999;
             background-color: #fff;
-            // box-shadow: 0 2px 5px rgba(172, 169, 169, 0.9);
 
             nav {
               max-width: 1200px;
@@ -1053,7 +1079,8 @@ body {
                   line-height: 36px;
                 }
 
-                button {
+                a {
+                  display: block;
                   font-family: "SF Pro display";
                   margin-top: 40px;
                   border: none;
@@ -2458,145 +2485,108 @@ body {
         }
       }
       // ============================== SECTION-8 STYLE END ===================================== //
-      // ============================== SEND CONTACT - START===================================== //
-
-      .sendContactSection {
+      // ============================== SECTION- 9 - START===================================== //
+      .section9 {
         width: 100%;
-        margin: 80px 0;
-
+        margin: 80px 0px;
         .container {
           max-width: 1120px;
           margin: auto;
-
-          .section-9 {
-            display: flex;
-
-            .leftContactSection {
-              max-width: 265px;
-              width: 30%;
-              margin-right: 20px;
-
-              p {
-                font-family: "SF Pro Display";
-                font-size: 16px;
-                font-style: normal;
-                font-weight: lighter;
-                line-height: 24px;
-                text-align: left;
-                color: #828282;
-
-                @media (max-width: 576px) {
-                  font-size: 2.951vw !important;
-                }
-                @media (max-width: 516px) {
-                  font-size: 3.101vw !important;
-                }
-                @media (max-width: 426px) {
-                  font-size: 4vw !important;
-                }
-              }
+          padding: 0px;
+          display: grid;
+          grid-template-columns: auto auto;
+          .left {
+            width: 265px;
+            text-align: left;
+            margin-right: 20px;
+            margin-top: 4px;
+            p {
+              font-family: "SF Pro Display";
+              font-style: normal;
+              font-weight: 300;
+              font-size: 16px;
+              line-height: 24px;
+              color: #828282;
             }
-
-            .rightContactSection {
-              max-width: 835px;
-              width: 100%;
-              h3 {
+          }
+          .right {
+            .texts {
+              h2 {
                 width: 475px;
-                padding-bottom: 40px;
                 font-family: "SF Pro Display";
-                font-size: 28px;
                 font-style: normal;
                 font-weight: bold;
+                font-size: 28px;
                 line-height: 36px;
-                text-align: left;
+                margin-bottom: 20px;
+                color: #000000;
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
-                .green-text {
+                span {
                   color: $green-color;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
                 }
               }
-
-              .sendInfos {
-                max-width: 100%;
-                background: #fafafa;
-                padding: 40px;
-                display: flex;
-                flex-direction: column;
-
-                .formTop {
-                  width: 100%;
-                  margin-bottom: 20px;
-
-                  form {
-                    display: flex;
-
-                    .input {
-                      width: 300px;
-                      margin-right: 20px;
-                      position: relative;
-                      display: flex;
-                      align-items: center;
-
-                      input {
-                        width: 100%;
-                        padding: 20px;
-                        border: none;
-                        outline: none;
-                        background: transparent;
-                        border: 1.5px solid $green-color;
-                        font-family: "SF Pro Display";
-                        font-size: 18px;
-                        font-style: normal;
-                        font-weight: normal;
-                        line-height: 21.48px;
-                        text-align: left;
-                        color: #000000;
-                        border-radius: 0px;
-                        -webkit-font-smoothing: antialiased;
-                        -moz-osx-font-smoothing: grayscale;
-
-                        &::placeholder {
-                          font-family: "SF Pro Display";
-                          font-size: 18px;
-                          font-style: normal;
-                          font-weight: normal;
-                          line-height: 21.5px;
-                          text-align: left;
-                          color: #828282;
-                        }
-                      }
-                      img {
-                        position: absolute;
-                        top: 23px;
-                        right: 23px;
-                        pointer-events: none;
-                      }
-                    }
-                  }
+              .fadbeck {
+                width: 489px;
+                font-family: "SF Pro Display";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 28px;
+                color: #828282;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+              }
+              .middle {
+                margin-top: 40px;
+                margin-bottom: 40px;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+              }
+            }
+            .registration {
+              max-width: 835px;
+              padding: 40px;
+              margin-top: 40px;
+              background-color: #fafafa;
+              display: grid;
+              grid-template-columns: auto auto;
+              .btn {
+                a {
+                  width: 246px;
+                  padding: 20px;
+                  background-color: $green-color;
+                  border: none;
+                  outline: none;
+                  font-family: "SF Pro Display";
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 18px;
+                  line-height: 21px;
+                  color: #ffffff;
+                  margin-right: 20px;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
                 }
-
-                .formBottom {
-                  display: flex;
-
-                  p {
-                    width: 426px;
-                    font-family: "SF Pro Display";
-                    font-size: 17px;
-                    font-style: normal;
-                    font-weight: lighter;
-                    line-height: 24px;
-                    letter-spacing: 0.29px;
-                    text-align: left;
-                    color: #828282;
-                    margin-left: 20px;
-                  }
+              }
+              .text {
+                p {
+                  font-family: "SF Pro Display";
+                  font-style: normal;
+                  font-weight: 300;
+                  font-size: 16px;
+                  line-height: 24px;
+                  color: #828282;
                 }
               }
             }
           }
         }
       }
-      // ============================== SEND CONTACT - END===================================== //
+
+      // ============================== SECTION - 9 - END===================================== //
       // ============================== FOOTER - START ===================================== //
 
       footer {
@@ -4130,7 +4120,215 @@ body {
         }
       }
       // SECTION8-STYLE-END
+      //    SECTION9-START]
+      @media (min-width: 768px) and (max-width: 992px) {
+        .section9 {
+          width: 100%;
+          margin: 80px 0px;
+          .container {
+            max-width: 1120px;
+            padding: 0 0px;
+            display: grid;
+            grid-template-columns: auto;
+            .left {
+              width: 300px;
+              text-align: left;
+              margin-right: 20px;
+              margin-top: 0px;
+              margin-bottom: 20px;
+              p {
+                font-family: "SF Pro Display";
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 24px;
+                color: #828282;
+              }
+            }
+            .right {
+              .texts {
+                h2 {
+                  width: 475px;
+                  font-family: "SF Pro Display";
+                  font-style: normal;
+                  font-weight: bold;
+                  font-size: 28px;
+                  line-height: 36px;
+                  margin-bottom: 20px;
+                  color: #000000;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
+                  span {
+                    color: $green-color;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                  }
+                }
+                .fadbeck {
+                  width: 489px;
+                  font-family: "SF Pro Display";
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 20px;
+                  line-height: 28px;
+                  color: #828282;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
+                }
+                .middle {
+                  margin-top: 40px;
+                  margin-bottom: 40px;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
+                }
+              }
+              .registration {
+                max-width: 835px;
+                padding: 40px;
+                margin-top: 40px;
+                background-color: #fafafa;
+                display: grid;
+                grid-template-columns: auto auto;
+                .btn {
+                  button {
+                    width: 246px;
+                    padding: 20px;
+                    background-color: $green-color;
+                    border: none;
+                    outline: none;
+                    font-family: "SF Pro Display";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #ffffff;
+                    margin-right: 20px;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                  }
+                }
+                .text {
+                  p {
+                    font-family: "SF Pro Display";
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #828282;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      @media (max-width: 767px) {
+        .section9 {
+          width: 100%;
+          margin: 80px 0px;
+          .container {
+            max-width: 1120px;
+            padding: 0 0px;
+            display: grid;
+            grid-template-columns: auto;
+            .left {
+              width: 300px;
+              text-align: left;
+              margin-right: 20px;
+              margin-top: 0px;
+              margin-bottom: 20px;
+              p {
+                font-family: "SF Pro Display";
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 24px;
+                color: #828282;
+              }
+            }
+            .right {
+              .texts {
+                h2 {
+                  width: 100%;
+                  font-family: "SF Pro Display";
+                  font-style: normal;
+                  font-weight: bold;
+                  font-size: 28px;
+                  line-height: 36px;
+                  margin-bottom: 20px;
+                  color: #000000;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
+                  span {
+                    color: $green-color;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                  }
+                }
+                .fadbeck {
+                  width: 100%;
+                  font-family: "SF Pro Display";
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 16px;
+                  line-height: 24px;
+                  color: #828282;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
+                }
+                .middle {
+                  margin-top: 40px;
+                  margin-bottom: 40px;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
+                }
+              }
+              .registration {
+                max-width: 100%;
+                padding: 20px;
+                margin-top: 40px;
+                background-color: #fafafa;
+                display: grid;
+                grid-template-columns: 100%;
+                .btn {
+                  button {
+                    width: 100%;
+                    padding: 20px;
+                    background-color: $green-color;
+                    border: none;
+                    outline: none;
+                    font-family: "SF Pro Display";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #ffffff;
+                    margin-right: 0px;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                  }
+                }
+                .text {
+                  p {
+                    width: 100%;
+                    margin-top: 20px;
+                    font-family: "SF Pro Display";
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #828282;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      //    SECTION9-END
     }
+
     // phone icon
     .sendPhone {
       position: fixed;
