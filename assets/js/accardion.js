@@ -97,7 +97,7 @@ var accar = [
     ],
   },
   {
-    id: "9",
+    id: "*",
     title: "Maxsus bonus darslar",
     post: [
       {
