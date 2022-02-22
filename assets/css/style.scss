@@ -2518,7 +2518,7 @@ body {
                 font-weight: bold;
                 font-size: 28px;
                 line-height: 36px;
-                margin-bottom: 20px;
+                margin-bottom: 19px;
                 color: #000000;
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
@@ -2539,12 +2539,6 @@ body {
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
               }
-              .middle {
-                margin-top: 40px;
-                margin-bottom: 40px;
-                -webkit-font-smoothing: antialiased;
-                -moz-osx-font-smoothing: grayscale;
-              }
             }
             .registration {
               max-width: 835px;
@@ -2554,7 +2548,7 @@ body {
               display: grid;
               grid-template-columns: auto auto;
               .btn {
-                a {
+                button {
                   width: 246px;
                   padding: 20px;
                   background-color: $green-color;
@@ -2569,6 +2563,10 @@ body {
                   margin-right: 20px;
                   -webkit-font-smoothing: antialiased;
                   -moz-osx-font-smoothing: grayscale;
+
+                  a {
+                    color: #ffffff;
+                  }
                 }
               }
               .text {

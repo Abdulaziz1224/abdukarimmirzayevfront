@@ -101,13 +101,7 @@ var accar = [
     title: "Maxsus bonus darslar",
     post: [
       {
-        p: "— Storytelling oʻquvchilari uchun kursdan tashqari maxsus bonus darslar beriladi. ",
-      },
-      {
-        p: "— Ushbu darslarning biri ovozni sozlashga doir boʼlib, unda ovozingiz bilan bogʻliq barcha muammoga yechim topasiz. Dars zoom orqali onlayn boʻlib oʻtadi.",
-      },
-      {
-        p: "— 2- bonus dars shaxsiy rivojlanishga doir boʼladi va u videodarslik shaklida taqdim etiladi.",
+        p: "— Storytelling oʻquvchilari uchun kursdan tashqari maxsus bonus darslar beriladi. Bonus dars shaxsiy rivojlanishga doir bo‘ladi va u videodarslik shaklida taqdim etiladi. ",
       },
     ],
   },

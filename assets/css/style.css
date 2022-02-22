@@ -2209,7 +2209,7 @@ body .back_site .over .section9 .container .right .texts h2 {
   font-weight: bold;
   font-size: 28px;
   line-height: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
   color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2230,12 +2230,6 @@ body .back_site .over .section9 .container .right .texts .fadbeck {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-body .back_site .over .section9 .container .right .texts .middle {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 body .back_site .over .section9 .container .right .registration {
   max-width: 835px;
   padding: 40px;
@@ -2244,7 +2238,7 @@ body .back_site .over .section9 .container .right .registration {
   display: grid;
   grid-template-columns: auto auto;
 }
-body .back_site .over .section9 .container .right .registration .btn a {
+body .back_site .over .section9 .container .right .registration .btn button {
   width: 246px;
   padding: 20px;
   background-color: #4b9e50;
@@ -2259,6 +2253,9 @@ body .back_site .over .section9 .container .right .registration .btn a {
   margin-right: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+body .back_site .over .section9 .container .right .registration .btn button a {
+  color: #ffffff;
 }
 body .back_site .over .section9 .container .right .registration .text p {
   font-family: "SF Pro Display";
