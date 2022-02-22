@@ -50,40 +50,6 @@ function play2() {
 
 let ul = document.querySelector(".accardion_section .ul");
 
-Array.isArray(accar)
-  ? accar.map((value) => {
-      ul.innerHTML += `
-    <li class="li" >
-                     <div class="title_accardion_top" onclick = "showAccardion(${
-                       value.id
-                     })">
-                                     <div class="title_accardion_left">
-                                   <span class="id">0${value.id}</span>
-                                   <p class="title">${value.title}</p>
-                      </div>
-                    <div class="title_accardion_right">
-                    <svg
-                        width="16"
-                        height="16"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        >
-                        <path
-                        d="M8.99998 12.172L14.364 6.808L15.778 8.222L7.99998 16L0.221985 8.222L1.63598 6.808L6.99998 12.172V0H8.99998V12.172Z"
-                        fill="black"
-                        />
-                        </svg>
-                        </div>
-                        </div>
-                  <div class="text_accardion-bottom">
-                  ${value.post.map((post) => `<p>${post.p}</p>`).join("")}
-                    </div>
-                </li>
-        `;
-    })
-  : "";
-
 // show and hide accardion Function //
 // window.addEventListener("load", () => {
 //   if (ul.children[0].classList.length === 1) {

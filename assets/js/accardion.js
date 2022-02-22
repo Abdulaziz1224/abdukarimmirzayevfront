@@ -1,6 +1,6 @@
 var accar = [
   {
-    id: "1",
+    id: "01",
     title: "Storytelling nima?",
     post: [
       {
@@ -12,7 +12,7 @@ var accar = [
     ],
   },
   {
-    id: "2",
+    id: "02",
     title: "Kopirayterlik va hikoya jozibasi",
     post: [
       {
@@ -25,7 +25,7 @@ var accar = [
   },
 
   {
-    id: "3",
+    id: "03",
     title: "Mavzu topish va tadqiq qilish",
     post: [
       {
@@ -40,7 +40,7 @@ var accar = [
     ],
   },
   {
-    id: "4",
+    id: "04",
     title: "Nutq va gapirish usullari",
     post: [
       {
@@ -52,7 +52,7 @@ var accar = [
     ],
   },
   {
-    id: "5",
+    id: "05",
     title: "Kamera qarshisida ishlash",
     post: [
       {
@@ -64,7 +64,7 @@ var accar = [
     ],
   },
   {
-    id: "6",
+    id: "06",
     title: "Tasvirga olish vositalari va vizual kompozitsiya",
     post: [
       {
@@ -76,7 +76,7 @@ var accar = [
     ],
   },
   {
-    id: "7",
+    id: "07",
     title: "Studiya sharoitida ishlash",
     post: [
       {
@@ -88,7 +88,7 @@ var accar = [
     ],
   },
   {
-    id: "8",
+    id: "08",
     title: "Darslar yuzasidan savol-javob",
     post: [
       {
