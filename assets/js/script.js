@@ -84,6 +84,22 @@ const showAccardion = (id) => {
   }
 };
 
+height = ul.children[0].lastElementChild.scrollHeight;
+
+ul.children[0].classList.toggle("active");
+
+if (ul.children[0].classList.contains("active")) {
+  ul.children[0].lastElementChild.style.height = height + "px";
+
+  ul.children[0].firstElementChild.lastElementChild.children[0].style.transform =
+    "rotate(0deg)";
+} else {
+  ul.children[0].firstElementChild.lastElementChild.children[0].style.transform =
+    "rotate(-90deg)";
+
+  ul.children[0].lastElementChild.style.height = "0px";
+}
+
 // ====================== BTN-BURGER ===================== //
 
 let line = document.querySelector("nav .line");
