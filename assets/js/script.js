@@ -61,44 +61,44 @@ let ul = document.querySelector(".accardion_section .ul");
 //   }
 // });
 
-let height = null;
-const showAccardion = (id) => {
-  height = ul.children[id - 1].lastElementChild.scrollHeight;
+// let height = null;
+// const showAccardion = (id) => {
+//   height = ul.children[id - 1].lastElementChild.scrollHeight;
 
-  ul.children[id - 1].classList.toggle("active");
+//   ul.children[id - 1].classList.toggle("active");
 
-  if (ul.children[id - 1].classList.contains("active")) {
-    ul.children[id - 1].lastElementChild.style.height = height + "px";
+//   if (ul.children[id - 1].classList.contains("active")) {
+//     ul.children[id - 1].lastElementChild.style.height = height + "px";
 
-    ul.children[
-      id - 1
-    ].firstElementChild.lastElementChild.children[0].style.transform =
-      "rotate(0deg)";
-  } else {
-    ul.children[
-      id - 1
-    ].firstElementChild.lastElementChild.children[0].style.transform =
-      "rotate(-90deg)";
+//     ul.children[
+//       id - 1
+//     ].firstElementChild.lastElementChild.children[0].style.transform =
+//       "rotate(0deg)";
+//   } else {
+//     ul.children[
+//       id - 1
+//     ].firstElementChild.lastElementChild.children[0].style.transform =
+//       "rotate(-90deg)";
 
-    ul.children[id - 1].lastElementChild.style.height = "0px";
-  }
-};
+//     ul.children[id - 1].lastElementChild.style.height = "0px";
+//   }
+// };
 
-height = ul.children[0].lastElementChild.scrollHeight;
+// height = ul.children[0].lastElementChild.scrollHeight;
 
-ul.children[0].classList.toggle("active");
+// ul.children[0].classList.toggle("active");
 
-if (ul.children[0].classList.contains("active")) {
-  ul.children[0].lastElementChild.style.height = height + "px";
+// if (ul.children[0].classList.contains("active")) {
+//   ul.children[0].lastElementChild.style.height = height + "px";
 
-  ul.children[0].firstElementChild.lastElementChild.children[0].style.transform =
-    "rotate(0deg)";
-} else {
-  ul.children[0].firstElementChild.lastElementChild.children[0].style.transform =
-    "rotate(-90deg)";
+//   ul.children[0].firstElementChild.lastElementChild.children[0].style.transform =
+//     "rotate(0deg)";
+// } else {
+//   ul.children[0].firstElementChild.lastElementChild.children[0].style.transform =
+//     "rotate(-90deg)";
 
-  ul.children[0].lastElementChild.style.height = "0px";
-}
+//   ul.children[0].lastElementChild.style.height = "0px";
+// }
 
 // ====================== BTN-BURGER ===================== //
 
