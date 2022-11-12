@@ -1259,11 +1259,12 @@ body {
                 color: #4b9e50; }
             body .back_site .over .section-6 .container .course-information .info-course .duration-course {
               width: 100%;
-              display: flex;
+              display: grid;
+              grid-template-columns: 1fr 1fr;
               gap: 20px; }
               body .back_site .over .section-6 .container .course-information .info-course .duration-course .box {
-                max-width: 265px;
-                width: 70%;
+/*                max-width: 265px;*/
+                width: 100%;
                 padding: 30px;
                 background: #fafafa; }
                 body .back_site .over .section-6 .container .course-information .info-course .duration-course .box p {
@@ -2196,7 +2197,9 @@ body {
             font-size: 24px;
             line-height: 32px; }
           body .back_site .over .section-6 .container .course-information .info-course .duration-course {
-            flex-direction: column; }
+            flex-direction: column;
+            grid-template-columns: 1fr;
+        }
             body .back_site .over .section-6 .container .course-information .info-course .duration-course .box {
               max-width: 100%;
               width: 100%; }
